@@ -1,0 +1,281 @@
+@font-face {
+  font-family: "LeOsler_Rough-Border-Regular";
+  font-display: swap;
+  src: url("../fonts/LeOsler_Rough-Border-Regular.woff") format("woff"), url("../fonts/LeOsler_Rough-Border-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeOsler_Rough-Shadow-Regular";
+  font-display: swap;
+  src: url("../fonts/LeOsler_Rough-Shadow-Regular.woff") format("woff"), url("../fonts/LeOsler_Rough-Shadow-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeOsler_Sharp-Light";
+  font-display: swap;
+  src: url("../fonts/LeOsler_Sharp-Light.woff") format("woff"), url("../fonts/LeOsler_Sharp-Light.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeOsler_Sharp-Regular";
+  font-display: swap;
+  src: url("../fonts/LeOsler_Sharp-Regular.woff") format("woff"), url("../fonts/LeOsler_Sharp-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeOsler_Sprinkles-Light";
+  font-display: swap;
+  src: url("../fonts/LeOsler_Sprinkles-Light.woff") format("woff"), url("../fonts/LeOsler_Sprinkles-Light.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeOsler_Stamp-Light";
+  font-display: swap;
+  src: url("../fonts/LeOsler_Stamp-Light.woff") format("woff"), url("../fonts/LeOsler_Stamp-Light.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeOsler_Stamp-Regular";
+  font-display: swap;
+  src: url("../fonts/LeOsler_Stamp-Regular.woff") format("woff"), url("../fonts/LeOsler_Stamp-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeOsler_Rough-Inline-Regular";
+  font-display: swap;
+  src: url("../fonts/LeOsler_Rough-Inline-Regular.woff") format("woff"), url("../fonts/LeOsler_Rough-Inline-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeOsler_Rough-Light";
+  font-display: swap;
+  src: url("../fonts/LeOsler_Rough-Light.woff") format("woff"), url("../fonts/LeOsler_Rough-Light.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeOsler_Rough-Regular";
+  font-display: swap;
+  src: url("../fonts/LeOsler_Rough-Regular.woff") format("woff"), url("../fonts/LeOsler_Rough-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LeOsler_Rough-Shadow-Light";
+  font-display: swap;
+  src: url("../fonts/LeOsler_Rough-Shadow-Light.woff") format("woff"), url("../fonts/LeOsler_Rough-Shadow-Light.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.face1 {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size: 5em;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.face1 p {
+  margin: 20px 0;
+}
+
+.face2 {
+  height: 100vh;
+}
+
+.face2 h1 {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 3em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.face3 {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size: 5em;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.face3 p {
+  margin: 20px 0;
+}
+
+.picture {
+  text-align: center;
+  margin: 60px 0;
+}
+
+.picture img {
+  width: 1280px;
+  height: 720px;
+}
+
+.left {
+  text-align: left;
+  margin-left: 300px;
+  font-family: 'Balsamiq Sans';
+  max-width: 1250px;
+  font-size: 1.7em;
+}
+
+.right {
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  margin: 20px 300px 60px 0;
+}
+
+.sho {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.tdlt {
+  text-decoration: line-through;
+}
